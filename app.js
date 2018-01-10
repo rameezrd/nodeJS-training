@@ -10,7 +10,6 @@ var about = require('./routes/about');
 var app = express();
 
 app.locals.points = "Receipies rating = *****";
-app.locals.videodata = require('./videodata.json');
 
 
 // view engine setup
